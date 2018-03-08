@@ -5,8 +5,9 @@ raytrace_range: 8.0
 
 transform_tolerance: 0.2
 
-#robot_radius: ir_of_robot 
-inflation_radius: 0.55
+#footprint: [[.4, .15], [.4, -0.15], [-0.4, -0.15], [-0.4,0.15]]
+#robot_radius: 0.4 
+inflation_radius: 0.3
 
 observation_sources: laser_scan_sensor
 
